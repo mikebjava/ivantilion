@@ -18,7 +18,7 @@ public class CombatListener implements Listener
 		Player attackingPlayer = (Player) attacker;
 		if(attacker instanceof Player)
 		{
-			//TODO Set the player to in combat gg
+			//TODO Set the player to in combat 
 		}
 		
 	}
