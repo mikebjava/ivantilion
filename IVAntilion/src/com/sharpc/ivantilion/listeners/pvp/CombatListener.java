@@ -6,7 +6,6 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
-
 public class CombatListener implements Listener
 {
 	@EventHandler
@@ -16,10 +15,10 @@ public class CombatListener implements Listener
 		Entity victim = Event.getEntity();
 		Player defendingPlayer = (Player) victim;
 		Player attackingPlayer = (Player) attacker;
-		if(attacker instanceof Player)
+		if (attacker instanceof Player)
 		{
 			//TODO Set the player to in combat 
 		}
-		
+
 	}
 }
