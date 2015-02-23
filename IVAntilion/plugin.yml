@@ -1,3 +1,6 @@
 name: IVAntilion
 main: com.sharpc.ivantilion.IVAntilionPlugin
 version: 1.0
+commands:
+   ivantilion:
+      description: Base command for IVAntilion
